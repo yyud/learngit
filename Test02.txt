@@ -1,0 +1,6 @@
+package oneday;
+public class Test{
+	public static coid main(String[] args){
+	Sytame.out.println("请输入一个名字");
+	}
+}
