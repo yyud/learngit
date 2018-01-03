@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>体会下拉输入框</title>
+</head>
+
+<body>体会下拉输入框<hr>
+  <form>
+    性别：
+    <select name="sex">
+       <option value="提交-男">显示－男</option>
+       <option value="提交-女" selected>显示－女</option>
+       <option value="提交-未知">显示－未知</option>
+    </select>
+　　　<hr>　
+    学历：
+    <select name="xueLi">
+       <option value="提交-大专">大专</option>
+       <option value="提交-本科" selected>本科</option>
+       <option value="提交-硕士">硕士</option>
+       <option value="提交-博士">博士</option>
+    </select>
+    
+    <hr>
+        个人爱好项:
+        <select name="hobby" size="10"  multiple>
+              <option value="提交-听音乐">听音乐</option>
+              <option value="提交-看小说" selected>看小说</option>
+              <option value="提交-游泳">游泳</option>
+              <option value="提交-跑步" selected>跑步</option>
+              <option value="提交-下棋">下棋</option>
+              <option value="提交-看电影" selected>看电影</option>
+              <option value="提交-打球">打球</option>
+         </select>
+        
+        <hr>  
+    
+    　<button >普通按钮-1</button>
+       <input type="button" value="普通按扭-2" >
+     <button type="reset">复位按钮－1</button>
+     <button type="submit">自动提交按钮－1</button>
+    </form>
+     <button type="reset">复位按钮－2</button>
+     <button type="submit">自动提交按钮－2</button>
+
+</body>
+</html>
+
